@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: peru; */
+    height: 100vh;
+    width: 100%;
+}
+#nav{
+    text-align: center;
+    margin-top: 5px;
+    height: 120px;
+    width: 100%;
+    background-color: green;
+    color: white;
+}
+#h1-wel{
+    /* background-color: rebeccapurple; */
+    width: 100%;
+    padding: 20px;
+    
+}
+.nav1{
+    display: flex;
+    text-decoration: none;
+    padding-left: 60px;
+    color: white;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+#upper{
+    /* background-color: blue; */
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#about-html{
+    /* background-color: aliceblue; */
+    padding: 5px;
+    width: 40%;
+    height: 40%;
+    height: 100px;
+    width: 450px;
+    margin: 30px 0 0 5px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+#about-css{
+    /* background-color: aliceblue; */
+    width: 40%;
+    padding: 5px;
+    height: 40%;
+    height: 100px;
+    width: 450px;
+    margin: 30px 0 0px 5px;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+#lower-div{
+    /* background-color: blue; */
+    margin-left: 80px;
+
+}
+#lower{
+    /* background-color: aliceblue; */
+    height: 100px;
+    width: 450px;
+    margin: 10px 0 0 30px;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+h4{
+    text-align: center;
+}
+
+footer{
+    position: fixed;
+    margin-top: 70px;
+    background-color: rgb(152, 3, 3);
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+#footer a {
+    text-decoration: none;
+}
+i{
+    margin:10px;
+    color: white;
+}
